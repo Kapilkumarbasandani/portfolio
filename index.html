@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><Kapil-developer></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(18, 18, 62);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li {
+        text-decoration: none;
+        color: antiquewhite;
+      }
+      nav ul li a:hover {
+        color: rgb(153, 153, 226);
+        font-size: 1.04rem;
+      }
+
+      main hr {
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 40px 84px;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        margin: 130px 0;
+      }
+      .firstSection > div {
+        width: 30%;
+      }
+      .leftSection {
+        font-size: 3rem;
+      }
+      .rightSection img {
+        width: 80%;
+        margin: 50px 0;
+      }
+      .purple {
+        color: rgb(170, 107, 228);
+      }
+      .text-gray {
+        color: gray;
+      }
+      #element {
+        color: rgb(170, 107, 228);
+      }
+      .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+      .secondSection h1 {
+        font-size: 1.8rem;
+      }
+      .secondSection .box {
+        background: white;
+        width: 90vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secondSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 100px;
+      }
+
+      .vertical-title {
+        position: relative;
+        top: 75px;
+        width: 200px;
+      }
+      .vertical-desc {
+        position: relative;
+        top: 75px;
+        color: gray;
+        width: 200px;
+        font-size: 12px;
+      }
+      .image-top {
+        width: 23px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+      .footer {
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+      }
+      footer {
+        background-color: #0e0e1a;
+      }
+      .footer ul {
+        list-style: none;
+      }
+      footer .footer-rights {
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+      }
+      .third-section {
+        max-width: 80vw;
+        margin: auto;
+        height: 50vh;
+        position: relative;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Kapil's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#first">About</a></li>
+            <li><a href="#second">Experience</a></li>
+            <li><a href="#third">Skills</a></li>
+            <li><a href="#forth">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection" id="first">
+        <div class="leftSection">
+          Hey, My Name is <span class="purple"> Kapil Basandani</span>
+          <div>and I am a passionate</div>
+          <div></div>
+          <span id="element"></span>
+        </div>
+        <div class="rightSection"><img src="bg.png" alt="" /></div>
+      </section>
+
+      <section class="secondSection" id="second">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="" />
+            <div class="vertical-title">
+              Intern at Virtusa - Aug 2023 - Jan 2024
+            </div>
+            <div class="vertical-desc">
+              <li>
+                Developing and maintaining web application using Reactjs and
+                other technologies.
+              </li>
+              <li>
+                implementing responsive design and ensuring cross-browser
+                compatibility
+              </li>
+              <li>Technologies: HTML,CSS,Reactjs,JavaScript</li>
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="" />
+            <div class="vertical-title">
+              Associate Software Developer at AND WE SUPPORT- Feb 2024 - Present
+            </div>
+            <div class="vertical-desc">
+              <li>
+                Engineered sophisticated user interface utilizing advance
+                frontend technology Reactjs enusring a seamless and intutive
+                user experience across web platforms.
+              </li>
+              <li>
+                Architect robust backend systems leveraging MongoDB for
+                efficient data storage and reterival,implementing complex data
+                models and optimizing database.
+              </li>
+              <li>
+                Employed advance CSS frameworks such as TailwindCSS and
+                Bootstrap to streamline frontend developmen.
+              </li>
+              <li>Technologies: MERN stack, Java , TailwindCSS , Redux</li>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="third-section"></section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h2>Kapil's Developer Portfolio</h2>
+        </div>
+        <div class="footer-second">
+          <h2 id="third">-Skills</h2>
+          <li>Reactjs</li>
+          <li>MongoDb</li>
+          <li>Expressjs</li>
+          <li>Nodejs</li>
+          <li>Java</li>
+        </div>
+        <div class="footer-third">
+          <h2 id="forth">-Contact me</h2>
+          <p>Mobile No- 8696859856</p>
+          <p>Email- kkbasandani74@gmail.com</p>
+        </div>
+      </div>
+      <div class="footer-rights">
+        Copyright&#169;kapilportfolio.com | All rights reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Designer", "Web Developer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
