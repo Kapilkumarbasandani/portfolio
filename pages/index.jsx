@@ -344,8 +344,8 @@ export default function Home() {
                 <div className="text-sm text-white/40 mb-4">Connect</div>
                 <div className="flex gap-4">
                   {[
-                    { icon: Github, href: '#' },
-                    { icon: Linkedin, href: '#' },
+                    { icon: Github, href: 'https://github.com/Kapilkumarbasandani' },
+                    { icon: Linkedin, href: 'https://www.linkedin.com/in/kapilbasandani' },
                     { icon: Twitter, href: '#' },
                   ].map((social, index) => (
                     <motion.a
